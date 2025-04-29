@@ -32,7 +32,7 @@ public abstract class Product {
         this.id = id;
     }
     public String toString() {
-        return "Title: " + title + ", Price: " + price + ", ID: " + id;
+        return "Titles: " + title + ", Price: " + price + ", ID: " + id;
     }
     protected abstract String generateId();
 }
