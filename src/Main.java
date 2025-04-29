@@ -18,14 +18,14 @@ public class Main {
         Inventory<Notebook> notebooks = new Inventory<>();
         Inventory<Accessory> accessories = new Inventory<>();
 
-        Book firstB = new Book("The Midnight Library" , 100.0, "Matt Haig" , "Mahi" , "Novel");
-        Book secondB = new Book("White Nights" , 120.0 , "Dostoevsky" , "Mahi" , "short story");
+        Book firstB = new Book("physic" , 140.0, "amir" , "Mahi" , "Novel");
+        Book secondB = new Book("story" , 220.0 , "hamla" , "Mahi" , "short story");
 
-        Notebook firstNote = new Notebook("Planner" , 15.0 , 50 , true);
-        Notebook secondNote = new Notebook("stickers" , 15.0 , 50 , false);
+        Notebook firstNote = new Notebook("planer" , 15.0 , 50 , true);
+        Notebook secondNote = new Notebook("sticker" , 15.0 , 50 , false);
 
-        Accessory firstAccessory = new Accessory("ring" , 100.0 , "roseGold");
-        Accessory secondAccessory = new Accessory("watch" , 100.0 , "silver");
+        Accessory firstAccessory = new Accessory("rings" , 100.0 , "roseGold");
+        Accessory secondAccessory = new Accessory("necles" , 100.0 , "silver");
 
         books.addItems(firstB);
         books.addItems(secondB);
